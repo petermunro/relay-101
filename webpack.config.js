@@ -14,5 +14,8 @@ module.exports = {
       }
     ]
   },
-  output: {filename: 'index.bundle.js', path: './'}
+  output: {filename: 'index.bundle.js', path: './'},
+  devServer: {
+    stats: 'errors-only'
+  }
 };

@@ -10,7 +10,6 @@ var response = request('GET', graphqlHubUrl, {
     query: introspectionQuery
   }
 });
-console.log(response);
 
 var schema = JSON.parse(response.body.toString('utf-8'));
 
